@@ -10,9 +10,12 @@ class Game
     puts "Welcome to minesweeper!  Get ready to waste time."
     puts "Would you like to load a game? (y/n)"
     load = gets.chomp
-    if load = "y"
-      #load yaml board
-      @board = 
+    if load == "y"
+      puts "Filename:"
+      filename = gets.chomp
+      YAML::load(filename) 
+      @board = YAML.load_file(filename)
+    end
 
     until @board.won?
       @board.render
@@ -23,12 +26,17 @@ class Game
 
       move_coords = []
 
-      unless action == 'a'
+      unless action == 'a' || action == 's'
         puts "Enter coordinates (0,0 - 8,8):"
         move_coords = gets.chomp.delete("()[],").split("")
       end
 
       @board.update(action, move_coords)
+
+      if action == 's'
+        puts "See you next time."
+        break
+      end
 
       system("clear")
 

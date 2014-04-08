@@ -1,0 +1,2677 @@
+--- !ruby/object:Board
+bomb_tiles:
+- &70110787060260 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 0
+  - 4
+  displayed: false
+- &70110787012300 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 0
+  - 8
+  displayed: false
+- &70110786983800 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 1
+  - 7
+  displayed: false
+- &70110786933940 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 2
+  - 0
+  displayed: false
+- &70110786903060 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 2
+  - 1
+  displayed: false
+- &70110786890460 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 2
+  - 3
+  displayed: false
+- &70110786878020 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 2
+  - 4
+  displayed: false
+- &70110786869280 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 3
+  - 0
+  displayed: false
+- &70110786860900 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 4
+  - 1
+  displayed: false
+- &70110786851300 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 4
+  - 2
+  displayed: false
+- &70110786801080 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 5
+  - 4
+  displayed: false
+- &70110786738540 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 6
+  - 0
+  displayed: false
+- &70110786476640 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 6
+  - 2
+  displayed: false
+- &70110786269500 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 6
+  - 4
+  displayed: false
+- &70110786229520 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 7
+  - 3
+  displayed: false
+- &70110786190940 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :bomb
+  value: B
+  coords:
+  - 8
+  - 8
+  displayed: false
+empty_tiles:
+- &70110786150120 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 0
+  - 0
+  displayed: false
+- &70110787290920 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 0
+  - 1
+  displayed: false
+- &70110787286860 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 0
+  - 2
+  displayed: false
+- &70110787228140 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 0
+  - 3
+  displayed: false
+- &70110787224080 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 0
+  - 5
+  displayed: false
+- &70110787269620 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 0
+  - 6
+  displayed: false
+- &70110787265560 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 0
+  - 7
+  displayed: false
+- &70110787278280 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 1
+  - 0
+  displayed: false
+- &70110787274220 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 1
+  - 1
+  displayed: false
+- &70110787305920 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 1
+  - 2
+  displayed: false
+- &70110787301860 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 1
+  - 3
+  displayed: false
+- &70110787314460 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 1
+  - 4
+  displayed: false
+- &70110787310400 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 1
+  - 5
+  displayed: false
+- &70110786598620 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 1
+  - 6
+  displayed: false
+- &70110786594560 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 1
+  - 8
+  displayed: false
+- &70110795494840 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 2
+  - 2
+  displayed: false
+- &70110786603240 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 2
+  - 5
+  displayed: false
+- &70110786599180 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 2
+  - 6
+  displayed: false
+- &70110786613200 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 2
+  - 7
+  displayed: false
+- &70110786609140 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 2
+  - 8
+  displayed: false
+- &70110787358780 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 3
+  - 1
+  displayed: false
+- &70110787354720 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 3
+  - 2
+  displayed: false
+- &70110787367080 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 3
+  - 3
+  displayed: false
+- &70110787363020 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 3
+  - 4
+  displayed: false
+- &70110787375480 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 3
+  - 5
+  displayed: false
+- &70110787371420 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 3
+  - 6
+  displayed: false
+- &70110787383760 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 3
+  - 7
+  displayed: false
+- &70110787379700 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 3
+  - 8
+  displayed: false
+- &70110787392080 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 4
+  - 0
+  displayed: false
+- &70110787388020 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 4
+  - 3
+  displayed: false
+- &70110787400360 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: 1
+  coords:
+  - 4
+  - 4
+  displayed: true
+- &70110787396300 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 4
+  - 5
+  displayed: false
+- &70110787408660 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 4
+  - 6
+  displayed: false
+- &70110787404600 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 4
+  - 7
+  displayed: false
+- &70110787416920 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 4
+  - 8
+  displayed: false
+- &70110787412860 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 5
+  - 0
+  displayed: false
+- &70110787425180 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 5
+  - 1
+  displayed: false
+- &70110787421120 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 5
+  - 2
+  displayed: false
+- &70110787433420 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 5
+  - 3
+  displayed: false
+- &70110787429360 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 5
+  - 5
+  displayed: false
+- &70110787441680 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 5
+  - 6
+  displayed: false
+- &70110787437620 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 5
+  - 7
+  displayed: false
+- &70110787449920 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 5
+  - 8
+  displayed: false
+- &70110787445860 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 6
+  - 1
+  displayed: false
+- &70110787458180 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 6
+  - 3
+  displayed: false
+- &70110787454120 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 6
+  - 5
+  displayed: false
+- &70110787466420 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 6
+  - 6
+  displayed: false
+- &70110787462360 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 6
+  - 7
+  displayed: false
+- &70110787474660 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 6
+  - 8
+  displayed: false
+- &70110787470600 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 7
+  - 0
+  displayed: false
+- &70110787466540 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 7
+  - 1
+  displayed: false
+- &70110787478860 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 7
+  - 2
+  displayed: false
+- &70110787474800 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 7
+  - 4
+  displayed: false
+- &70110787487100 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 7
+  - 5
+  displayed: false
+- &70110787483040 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 7
+  - 6
+  displayed: false
+- &70110787495360 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 7
+  - 7
+  displayed: false
+- &70110787491300 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 7
+  - 8
+  displayed: false
+- &70110787503600 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 8
+  - 0
+  displayed: false
+- &70110787499540 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 8
+  - 1
+  displayed: false
+- &70110787511840 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 8
+  - 2
+  displayed: false
+- &70110787507780 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 8
+  - 3
+  displayed: false
+- &70110787520200 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 8
+  - 4
+  displayed: false
+- &70110787516140 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 8
+  - 5
+  displayed: false
+- &70110787528440 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 8
+  - 6
+  displayed: false
+- &70110787524380 !ruby/object:Tile
+  neighbor_transform:
+    :n:
+    - 0
+    - 1
+    :ne:
+    - 1
+    - 1
+    :e:
+    - 1
+    - 0
+    :se:
+    - 1
+    - -1
+    :s:
+    - 0
+    - -1
+    :sw:
+    - -1
+    - -1
+    :w:
+    - -1
+    - 0
+    :nw:
+    - -1
+    - 1
+  type: :empty
+  value: _
+  coords:
+  - 8
+  - 7
+  displayed: false
+board:
+- - *70110786150120
+  - *70110787290920
+  - *70110787286860
+  - *70110787228140
+  - *70110787060260
+  - *70110787224080
+  - *70110787269620
+  - *70110787265560
+  - *70110787012300
+- - *70110787278280
+  - *70110787274220
+  - *70110787305920
+  - *70110787301860
+  - *70110787314460
+  - *70110787310400
+  - *70110786598620
+  - *70110786983800
+  - *70110786594560
+- - *70110786933940
+  - *70110786903060
+  - *70110795494840
+  - *70110786890460
+  - *70110786878020
+  - *70110786603240
+  - *70110786599180
+  - *70110786613200
+  - *70110786609140
+- - *70110786869280
+  - *70110787358780
+  - *70110787354720
+  - *70110787367080
+  - *70110787363020
+  - *70110787375480
+  - *70110787371420
+  - *70110787383760
+  - *70110787379700
+- - *70110787392080
+  - *70110786860900
+  - *70110786851300
+  - *70110787388020
+  - *70110787400360
+  - *70110787396300
+  - *70110787408660
+  - *70110787404600
+  - *70110787416920
+- - *70110787412860
+  - *70110787425180
+  - *70110787421120
+  - *70110787433420
+  - *70110786801080
+  - *70110787429360
+  - *70110787441680
+  - *70110787437620
+  - *70110787449920
+- - *70110786738540
+  - *70110787445860
+  - *70110786476640
+  - *70110787458180
+  - *70110786269500
+  - *70110787454120
+  - *70110787466420
+  - *70110787462360
+  - *70110787474660
+- - *70110787470600
+  - *70110787466540
+  - *70110787478860
+  - *70110786229520
+  - *70110787474800
+  - *70110787487100
+  - *70110787483040
+  - *70110787495360
+  - *70110787491300
+- - *70110787503600
+  - *70110787499540
+  - *70110787511840
+  - *70110787507780
+  - *70110787520200
+  - *70110787516140
+  - *70110787528440
+  - *70110787524380
+  - *70110786190940

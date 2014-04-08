@@ -1,16 +1,10 @@
 class Board
   require "./tile.rb"
   require 'debugger'
-
-  # Board Methods
-  # won?
-  # render
-  # update
-  # lost?
+  require 'yaml'
 
   def initialize
     @board = make_board
-
   end
 
   def make_board
@@ -85,6 +79,10 @@ class Board
       self.reveal_all
       return nil
     end
+    
+    if action == "s"
+      save_file
+    end
 
     row = move_coords[0].to_i
     col = move_coords[1].to_i
@@ -99,23 +97,29 @@ class Board
 
   end
 
+  def save_file
+    puts "What name do you want to save it as?"
+    filename = gets.chomp
+    File.open(filename, 'w'){|file| file.write(self.to_yaml)}
+    return nil
+  end
+
   def render
-    (0..8).each do |xCoord|
-      row_array = []
-      (0..8).each do |yCoord|
+    row_array = []
+  
+    self.each_indices do |xCoord, yCoord|
 
-        # p @board[xCoord][yCoord].displayed
-
-        if @board[xCoord][yCoord].displayed
-          row_array << @board[xCoord][yCoord].value
-        else
-          row_array << "*"
-        end
-
+      if @board[xCoord][yCoord].displayed
+        row_array << @board[xCoord][yCoord].value
+      else
+        row_array << "*"
       end
-      puts row_array.join(" ")
+    
+      if row_array.length == 9
+        puts row_array.join(" ")
+        row_array = []
+      end
     end
-
   end
 
 end

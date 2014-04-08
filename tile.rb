@@ -1,5 +1,4 @@
 class Tile
-  #add_flag, reveal
 
   attr_accessor :type, :coords, :displayed, :value
 
