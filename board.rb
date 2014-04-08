@@ -24,6 +24,8 @@ class Board
         all_coords << [xCoord, yCoord]
       end
 
+      coordinates_for_bombs = all_coords.sample(num_bombs)
+
       @bomb_tiles = []
       @empty_tiles = []
 
